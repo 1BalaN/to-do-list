@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-info {
+    width: 1100px;
+    height: 100px;
+    background-color: rgb(45, 45, 144);
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+}

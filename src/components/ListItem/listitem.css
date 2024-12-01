@@ -1,0 +1,48 @@
+.list-group-item {
+    height: 50px;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5), 
+                0 -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.list-group-item-label {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.done {
+    color: #E2B007;
+    text-decoration: line-through;
+}
+
+.buttonsSubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.btn-sm {
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+    padding-top: 5px;
+    background-color: aliceblue;
+}
+
+.btn-cookie {
+    margin-right: 2.5px;
+    color: #E2B007;
+}
+
+.btn-trash {
+    color: red;
+}
+
+i {
+    height: 25px;
+    width: 25px;
+}
