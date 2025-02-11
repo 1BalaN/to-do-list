@@ -27,7 +27,11 @@ export default class AddForm extends Component {
             <div className='app-add-form'>
                 <h3>Добавьте новую задачу</h3>
                 <form onSubmit={this.onSubmit} className='add-form d-flex'>
-                    <input type='text' value={task} className='form-control new-post-label' placeholder='Что необходимо сделать ?' name='task' onChange={this.onValueChange}/>
+                    <input type='text' value={task} className='form-control new-post-label' 
+                        placeholder='Что необходимо сделать ?' 
+                        name='task' 
+                        onChange={this.onValueChange}
+                    />
                 <button type='submit' className='btn-add btn-outline-light'>Добавить</button>
                 </form>
             </div>
